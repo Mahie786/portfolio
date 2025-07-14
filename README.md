@@ -7,7 +7,7 @@ Welcome to my portfolio! Here are some of my university projects:
 ### Project 1: [Undergraduate Individual Project]
 A research paper on Cybersecurity Vulnerabilities in Smart Home IoT Devices
 
-[https://github.com/Mahie786/portfolio/blob/main/MIDDLESEX%20UNIVERSITY.pdf](./project1)
+[Cybersecurity Vulnerabilities in Smart Home IoT Devices](https://github.com/Mahie786/portfolio/blob/main/MIDDLESEX%20UNIVERSITY.pdf)
 
 ---
 
