@@ -66,8 +66,25 @@ Feel free to check the code and try out the game online!
 
 
 ---
-### Project 4: [Recipe Website]
-Website for sharing recipes with others.
+### Project 4: [Recipe Website](https://github.com/Mahie786/portfolio/tree/main/Recipe/Recipe)
 
-[RECYIPEE](https://github.com/Mahie786/portfolio/tree/main/Recipe/Recipe)
+A website for sharing recipes with others, allowing users to upload, view, and manage recipes.
+
+- **Technologies:** Node.js, Express.js, HTML, CSS, JavaScript  
+- **Features:**
+  - User-friendly interface to browse and share recipes
+  - File uploads to add images for recipes (`uploads/` folder)
+  - Organized routing with Express (`routes/` folder) for different site functionalities
+  - Models for handling data structure and storage (`models/` folder)
+  - Responsive design with custom CSS (`styles.css`)
+  - Frontend interactivity managed by `script.js`
+  - Core server logic handled in `app.js`
+- **Project Structure:**
+  - `public/` — static assets including CSS and client-side scripts
+  - `uploads/` — stores user-uploaded recipe images
+  - `routes/` — defines API and page routes
+  - `models/` — data models for recipes and users
+  - Root files like `index.html`, `package.json`, and server setup files
+
+Feel free to explore the repository and try contributing your own recipes!
 
