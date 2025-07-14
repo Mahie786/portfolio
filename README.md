@@ -142,23 +142,23 @@ Feel free to explore the repository and try contributing your own recipes!
 ---
 ## Project 5: [Investment Trading Platform](https://github.com/Mahie786/portfolio/tree/main/project)
 
-A Python desktop application simulating a simplified investment trading platform, allowing users to create accounts, invest in cryptocurrencies or precious metals, manage portfolios, and perform deposits, withdrawals, and sales.
+A simplified client-server desktop application in Python for managing investments in cryptocurrencies and precious metals, allowing users to view stock, place orders, chat, and monitor a dashboard.
 
 - **Technologies:** Python, Tkinter, Socket Programming, Pickle  
 - **Features:**
-  - Intuitive client-side GUI for user interaction and order management
-  - Server-side socket communication handling data storage and updates
-  - Real-time client-server data exchange for stock and order processing
-  - Stock inventory with details including price, color, and current stock levels
-  - Order system allowing users to add, remove, and confirm purchases
-  - Dashboard displaying earnings, total orders, and commissions
+  - Client-server communication with sockets for real-time data exchange
+  - Tkinter GUI for placing orders with quantity management
+  - Stock database display receiving data from client
+  - Basic chat functionality between client and server
+  - Dashboard showing summary statistics like total earnings and orders
+  - Order list management with add and remove item capabilities
 - **Project Structure:**
-  - Client-side GUI scripts using Tkinter for windows and user input
-  - Server socket scripts managing connections and serialized data
-  - Text file (`currentstock.txt`) storing stock information
-  - Functions for stock management, client chat, order processing, and dashboard display
+  - Python scripts implementing client and server socket communication
+  - Tkinter GUI windows for orders, stock, chat, and dashboard
+  - Use of Pickle for serializing data transferred over the network
 
-Feel free to explore the repository to learn about client-server communication and building desktop applications with Python!
+Feel free to explore the repository and try out the interactive client-server features!
+
 
 
 
