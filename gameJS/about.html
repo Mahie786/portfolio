@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | SnakeGo</title>
+    <script src="./userAuthentication/auth/auth.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Snake</span>Go</h1>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./leader.html">Leaderboard</a>
+                <a class="active" href="./about.html">About us</a>
+                <a href="./contact.html">Contact us</a>
+                <!-- <a class="btn" href="./userAuthentication/registration.html">Join Now</a> -->
+            </nav>
+            <div>
+                <p id="welcomeMessage"></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h1>#About_SnakeGo</h1>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="text-about">
+                <h1>About SnakeGo</h1>
+
+                <p>Welcome to SnakeGo, the classic snake game brought to life with a modern twist! SnakeGo provides an
+                    exciting gaming experience that takes you back to the nostalgia of the original Snake game, while
+                    incorporating new features and challenges.</p>
+
+                <p>Key Features:</p>
+                <ul>
+                    <li>Responsive and intuitive controls for an immersive gameplay experience.</li>
+                    <li>Customizable settings to tailor the game to your preferences.</li>
+                    <li>Compete with friends and see who can achieve the highest score!</li>
+                </ul>
+
+                <p>SnakeGo is not just a game; it's a journey into the world of retro gaming with a contemporary touch.
+                    Whether you're a long-time fan of Snake or a newcomer to the genre, SnakeGo promises endless hours
+                    of
+                    entertainment.</p>
+
+
+                <p class="rules">Game Rules:</p>
+                <ul>
+                    <li>If the snake touches the box border or collides with its own body, the game is over.</li>
+                    <li>When the snake eats, it grows longer, increasing the challenge.</li>
+                </ul>
+
+                <p class="rules">Leaderboard:</p>
+                <p>If you are logged in, your high scores will be recorded on the leaderboard. Compete with other
+                    players and strive for the top spot!</p>
+
+                <p class="login-info">Note: If you are not logged in, your game data will not be saved on the
+                    leaderboard.</p>
+
+                <p>SnakeGo is not just a game; it's a journey into the world of retro gaming with a contemporary touch.
+                    Whether you're a long-time fan of Snake or a newcomer to the genre, SnakeGo promises endless hours
+                    of entertainment.</p>
+
+                <p>Get ready to slither, eat, and grow with SnakeGo!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>Copyright© SnakeGo. 2023</div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        const loggedInUser = localStorage.getItem('loggedInUser');
+        if (loggedInUser) {
+            document.getElementById('welcomeMessage').innerHTML = 'Welcome, ' + loggedInUser + '!';
+        } else {
+            // Handle the case where the user is not logged in
+            // Redirect or display a login prompt
+        }
+    </script>
+
+</body>
+
+</html>

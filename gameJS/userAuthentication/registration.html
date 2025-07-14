@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | JSGame</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="register">
+    <section class="registration">
+        <div class="container-sign">
+            <form class="form" id="signupForm" onsubmit="return registration()">
+                <h1>Create Account</h1>
+                <div class="divider"></div>
+                <div>
+                    <label for="registerUsername">Username: <sup>*</sup></label><br>
+                    <input type="text" id="registerUsername" placeholder="Enter username" required>
+                </div>
+                <div>
+                    <label for="registerpassword">Enter Password: <sup>*</sup></label><br>
+                    <input type="password" id="registerpassword" minlength="8" maxlength="30" placeholder="Enter your password" required>
+                </div>
+                <div>
+                    <label for="confirmPassword">Confirm Password: <sup>*</sup></label><br>
+                    <input type="password" id="confirmPassword" minlength="8" maxlength="30" placeholder="Confirm your password" required>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" class="sign-btn" value="SIGN UP">
+                </div>
+                <br>
+                <div>
+                    <p class="already">Already have an account? <a href="./login.html">Sign in.</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./auth/auth.js"></script>
+    
+</body>
+</html>

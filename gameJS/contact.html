@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | JSGame</title>
+    <script src="./userAuthentication/auth/auth.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6a561972d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Snake</span>Go</h1>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./leader.html">Leaderboard</a>
+                <a href="./about.html">About us</a>
+                <a class="active" href="./contact.html">Contact us</a>
+                <!-- <a class="btn" href="./userAuthentication/registration.html">Join Now</a> -->
+            </nav>
+            <div>
+                <p id="welcomeMessage"></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-contact">
+        <div class="container">
+            <h1>#Connect</h1>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <form>
+                <div>
+                    <h2>Write us a message</h2>
+                </div>
+                <div>
+                    <label for="name">Name: <sup>*</sup></label><br>
+                    <input type="text" id="name" placeholder="Enter your name here" required>
+                </div>
+                <div>
+                    <label for="mail">Email: <sup>*</sup></label><br>
+                    <input type="email" id="mail" placeholder="Enter your email here" required>
+                </div>
+                <div>
+                    <label for="msg">Message: <sup>*</sup></label><br>
+                    <textarea name="msg" id="msg" placeholder="Type your message here..." required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message" class="messagebtn">
+                </div>
+            </form>
+            <div class="social">
+                <h2>Connect with SnakeGo team</h2>
+                <div>
+                    <p>+00 0000 00000</p>
+                    <p>support@snakego.co</p>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div>Copyright© SnakeGo. 2023</div>
+        </div>
+    </footer>
+
+    <script>
+        const loggedInUser = localStorage.getItem('loggedInUser');
+        if (loggedInUser) {
+                document.getElementById('welcomeMessage').innerHTML = 'Welcome, ' + loggedInUser + '!';
+            } else {
+                document.getElementById('welcomeMessage').innerHTML = 'Login';
+                document.getElementById('welcomeMessage').style.color = 'red';
+                document.getElementById('welcomeMessage').style.cursor = 'pointer';
+                document.getElementById('welcomeMessage').addEventListener('click', ()=>{
+                    window.location.href = './userAuthentication/login.html';
+                });
+            }
+    </script>
+
+</body>
+
+</html>

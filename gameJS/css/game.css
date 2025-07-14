@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    background: #edf2f4;
+    min-height: 100vh;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+    width: 85vmin;
+    height: 90vmin;
+    background-color: rgb(252, 211, 10);    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.game-details{
+    color: #2b2d42;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-area{
+    width: 100%;
+    height: 100%;
+    background: #2b2d42;
+    display: grid;
+    gap: 1px;
+    grid-template: repeat(40,1fr) / repeat(40,1fr);
+}
+.play-area .food{
+    width: 10px;
+    height: 10px; 
+    border-radius: 50%;
+    background-color: rgb(4, 217, 18);
+}
+.play-area .snake-head{
+    border-radius: 2px;
+    background-color: #d90429;
+}
+.leaderboard{
+    margin-top: 50px;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    height: 90vmin;
+}
+.leaderboard h1{
+    background-color: rgb(252, 211, 10);
+    padding: 10px 30px;
+    color: #2b2d42;
+}
+.leaderboard-container{
+    padding: 20px;
+}
+.leaderboard-container p{
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    padding: 5px ;
+}
+.leaderboard-container span{
+    color: rgb(252, 211, 10);
+}
+
+
+header {
+    background-color: #2b2d42;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Redressed';
+}
+
+.logo span {
+    color: #ef233c;
+}
+
+.logo h1 {
+    font-size: 32px;
+}
+
+.nav-container {
+    max-width: 1400px;
+    padding: 10px 30px;
+    margin: 0 auto;
+    background-color: #2b2d42;
+    width: 100%;
+}
+
+header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    position: relative;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    background-color: #d90429;
+    height: 3px;
+    width: 0%;
+    transition: width 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav a.active::before {
+    width: 100%;
+}

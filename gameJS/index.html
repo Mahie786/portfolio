@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | SnakeGo</title>
+    <script src="./userAuthentication/auth/auth.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Snake</span>Go</h1>
+            </div>
+            <nav>
+                <a class="active" href="./index.html">Home</a>
+                <a href="./leader.html">Leaderboard</a>
+                <a href="./about.html">About us</a>
+                <a href="./contact.html">Contact us</a>
+                <!-- <a class="btn" href="./userAuthentication/registration.html">Join Now</a> -->
+            </nav>
+            <div>
+                <p id="welcomeMessage"></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="snake-container">
+        <img src="./images/littlesnake.png" alt="Snake" class="snake">
+    </div>
+
+    <main>
+        <div class="image-container">
+            <img src="./images/snake.png">
+        </div>
+        <div class="text">
+            <h1>Snake<span>Go</span></h1>
+            
+            <p>Welcome to the snake game. Keep eating so u grow but be warned it will get more difficult as you get bigger. Try reaching the top to score points on the leaderboard</p>
+            <a href="./game.html" class="btn">Start Game</a>
+            <a href="./userAuthentication/registration.html" class="btn">Create Account</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>Copyright© SnakeGo. 2023</div>
+        </div>
+    </footer>
+
+    <script>
+        const loggedInUser = localStorage.getItem('loggedInUser');
+        if (loggedInUser) {
+                document.getElementById('welcomeMessage').innerHTML = 'Welcome, ' + loggedInUser + '!';
+            } else {
+                document.getElementById('welcomeMessage').innerHTML = 'Login';
+                document.getElementById('welcomeMessage').style.color = 'red';
+                document.getElementById('welcomeMessage').style.cursor = 'pointer';
+                document.getElementById('welcomeMessage').addEventListener('click', ()=>{
+                    window.location.href = './userAuthentication/login.html';
+                });
+            }
+    </script>
+
+</body>
+
+</html>
