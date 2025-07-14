@@ -82,7 +82,6 @@ concludes with recommendations for future research and practical implementations
 
 Feel free to explore the research and contact me if you have questions or want to discuss IoT security further!
 
-
 ---
 
 ### Project 2: [Website Creation](https://github.com/Mahie786/school-lessons)
