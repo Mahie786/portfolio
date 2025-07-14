@@ -41,15 +41,29 @@ npm run serve
   - Input validation and error handling for reliable API responses
   - Ongoing improvements such as UI fixes (e.g., spacing issues on order success)
 
----
-
 Feel free to explore the code and reach out if you have any questions!
 ---
 
-### Project 3: [Game Website]
-Website for playing the classical "Snake" game and having a public leaderboard against others.
+### Project 3: [Game Website](https://github.com/Mahie786/portfolio/tree/main/gameJS)
 
-[SnakeGo](https://github.com/Mahie786/portfolio/tree/main/gameJS)
+Website for playing the classical "Snake" game with a public leaderboard to compete against others.
+
+- **Technologies:** HTML, CSS, JavaScript  
+- **Features:**
+  - Classic Snake gameplay implemented in JavaScript
+  - Responsive and interactive UI with CSS styling
+  - Public leaderboard to track and display high scores
+  - User authentication system to allow players to save scores
+  - Multiple pages including gameplay, leaderboard, contact, and about pages
+- **Project Structure:**
+  - `css/` — stylesheets for the website
+  - `js/` — JavaScript files managing game logic and leaderboard
+  - `userAuthentication/` — scripts handling user login and registration
+  - `index.html` — homepage with game interface
+  - Other HTML pages for leaderboard, contact, and about sections
+
+Feel free to check the code and try out the game online!
+
 
 ---
 ### Project 4: [Recipe Website]
