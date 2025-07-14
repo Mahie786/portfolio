@@ -138,3 +138,27 @@ A website for sharing recipes with others, allowing users to upload, view, and m
 
 Feel free to explore the repository and try contributing your own recipes!
 
+
+---
+## Project 5: [Investment Trading Platform](https://github.com/Mahie786/portfolio/tree/main/project)
+
+A Python desktop application simulating a simplified investment trading platform, allowing users to create accounts, invest in cryptocurrencies or precious metals, manage portfolios, and perform deposits, withdrawals, and sales.
+
+- **Technologies:** Python, Tkinter, Socket Programming, Pickle  
+- **Features:**
+  - Intuitive client-side GUI for user interaction and order management
+  - Server-side socket communication handling data storage and updates
+  - Real-time client-server data exchange for stock and order processing
+  - Stock inventory with details including price, color, and current stock levels
+  - Order system allowing users to add, remove, and confirm purchases
+  - Dashboard displaying earnings, total orders, and commissions
+- **Project Structure:**
+  - Client-side GUI scripts using Tkinter for windows and user input
+  - Server socket scripts managing connections and serialized data
+  - Text file (`currentstock.txt`) storing stock information
+  - Functions for stock management, client chat, order processing, and dashboard display
+
+Feel free to explore the repository to learn about client-server communication and building desktop applications with Python!
+
+
+
