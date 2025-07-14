@@ -25,46 +25,17 @@ concludes with recommendations for future research and practical implementations
 
 ---
 
-### Table of Contents (Summary)
+#### Table of Contents (Summary)
 
 1. **Introduction**  
-   - Defines the problem of IoT security in smart homes  
-   - Outlines project aims, objectives, and deliverables  
-
 2. **Background and Literature Review**  
-   - Overview of smart home IoT ecosystems and device types  
-   - Common cybersecurity vulnerabilities affecting these devices  
-   - Case study of the Mirai botnet attack, a pivotal moment in IoT security awareness  
-   - Privacy concerns and limitations of existing security frameworks  
-
 3. **Problem Description and Statement**  
-   - Importance of securing smart home IoT systems  
-   - Constraints and assumptions related to the study  
-   - Clear problem statement focusing on vulnerability identification and mitigation  
-
 4. **Security Principles and Threat Models**  
-   - Application of the CIA triad (Confidentiality, Integrity, Availability)  
-   - Layered threat analysis models  
-   - Security-by-design and privacy-by-design principles for smart devices  
-   - Risk assessment and compliance frameworks relevant to IoT  
-
 5. **Methodology**  
-   - Research design and data collection methods  
-   - Analytical approach for identifying and categorizing vulnerabilities  
-   - Limitations and justification of methods used  
-
 6. **Results**  
-   - Key findings on vulnerabilities and responsible stakeholders  
-   - Summary tables categorizing issues by severity and impact  
-
 7. **Conclusions and Reflections**  
-   - Summary of project findings  
-   - How project aims were met  
-   - Reflection on the broader implications of IoT security research  
-
 8. **Evaluation and Future Work**  
-   - Evaluation of methodology strengths and weaknesses  
-   - Discussion on broader impact and potential future research directions  
+
 
 ---
 
@@ -113,6 +84,8 @@ npm run serve
   - User session management and order processing
   - Input validation and error handling for reliable API responses
   - Ongoing improvements such as UI fixes (e.g., spacing issues on order success)
+
+---
 
 Feel free to explore the code and reach out if you have any questions!
 ---
