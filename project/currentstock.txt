@@ -1,0 +1,12 @@
+
+Name     Price        colour        stock
+Macbook, 1000 pounds, colour=white, current stock=203
+Iphone 8, 700 pounds, colour=grey, current stock=111
+Iphone X, 800 pounds, colour=red, current stock=142
+Iphone XR, 650 pounds, colour=grey, current stock=223
+Iphone 11, 890 pounds, colour=ice blue, current stock=132
+Iphone 12, 900 pounds, colour=gold, current stock=112
+Iphone 12 pro, 1000 pounds, colour=black, current stock=142
+Iphone 13, 1100 pounds, colour=silver, current stock=112
+Iphone 13 pro, 1200 pounds, colour=silver, current stock=42
+	
