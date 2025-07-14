@@ -6,7 +6,7 @@ Welcome to my university projects portfolio! Below are some of the key projects 
 
 ## Projects
 
-## Project 1: Undergraduate Individual Project — Cybersecurity Vulnerabilities in Smart Home IoT Devices
+## Project 1: Undergraduate Individual Project: Cybersecurity Vulnerabilities in Smart Home IoT Devices
 
 ### Abstract  
 This project investigates the cybersecurity vulnerabilities present in smart home Internet of Things (IoT) devices. The research highlights key security challenges, threat models, privacy implications, and proposes mitigation strategies to improve the security posture of smart home environments.
