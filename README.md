@@ -1,13 +1,75 @@
 # Mahie's University Projects Portfolio
 
-Welcome to my portfolio! Here are some of my university projects:
+Welcome to my university projects portfolio! Below are some of the key projects I developed during my studies, showcasing skills in cybersecurity research, full-stack web development, and interactive applications.
+
+---
 
 ## Projects
 
-### Project 1: [Undergraduate Individual Project]
-A research paper on Cybersecurity Vulnerabilities in Smart Home IoT Devices
+## Project 1: Undergraduate Individual Project — Cybersecurity Vulnerabilities in Smart Home IoT Devices
 
-[Cybersecurity Vulnerabilities in Smart Home IoT Devices](https://github.com/Mahie786/portfolio/blob/main/MIDDLESEX%20UNIVERSITY.pdf)
+### Abstract  
+This project investigates the cybersecurity vulnerabilities present in smart home Internet of Things (IoT) devices. The research highlights key security challenges, threat models, privacy implications, and proposes mitigation strategies to improve the security posture of smart home environments.
+
+---
+
+### Table of Contents (Summary)
+
+1. **Introduction**  
+   - Defines the problem of IoT security in smart homes  
+   - Outlines project aims, objectives, and deliverables  
+
+2. **Background and Literature Review**  
+   - Overview of smart home IoT ecosystems and device types  
+   - Common cybersecurity vulnerabilities affecting these devices  
+   - Case study of the Mirai botnet attack, a pivotal moment in IoT security awareness  
+   - Privacy concerns and limitations of existing security frameworks  
+
+3. **Problem Description and Statement**  
+   - Importance of securing smart home IoT systems  
+   - Constraints and assumptions related to the study  
+   - Clear problem statement focusing on vulnerability identification and mitigation  
+
+4. **Security Principles and Threat Models**  
+   - Application of the CIA triad (Confidentiality, Integrity, Availability)  
+   - Layered threat analysis models  
+   - Security-by-design and privacy-by-design principles for smart devices  
+   - Risk assessment and compliance frameworks relevant to IoT  
+
+5. **Methodology**  
+   - Research design and data collection methods  
+   - Analytical approach for identifying and categorizing vulnerabilities  
+   - Limitations and justification of methods used  
+
+6. **Results**  
+   - Key findings on vulnerabilities and responsible stakeholders  
+   - Summary tables categorizing issues by severity and impact  
+
+7. **Conclusions and Reflections**  
+   - Summary of project findings  
+   - How project aims were met  
+   - Reflection on the broader implications of IoT security research  
+
+8. **Evaluation and Future Work**  
+   - Evaluation of methodology strengths and weaknesses  
+   - Discussion on broader impact and potential future research directions  
+
+---
+
+### Deliverables  
+- Comprehensive research paper exploring the above topics in detail  
+- Recommendations for improving smart home IoT security  
+- Identification of research gaps for future study  
+
+---
+
+### Access the Full Report  
+[Download the full research paper (PDF)](https://github.com/Mahie786/portfolio/blob/main/MIDDLESEX%20UNIVERSITY.pdf)  
+
+---
+
+Feel free to explore the research and contact me if you have questions or want to discuss IoT security further!
+
 
 ---
 
