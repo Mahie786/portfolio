@@ -88,6 +88,7 @@ npm run serve
 ---
 
 Feel free to explore the code and reach out if you have any questions!
+
 ---
 
 ### Project 3: [Game Website](https://github.com/Mahie786/portfolio/tree/main/gameJS)
