@@ -55,7 +55,8 @@ Feel free to explore the research and contact me if you have questions or want t
 
 ---
 
-### Project 2: [Website Creation](https://github.com/Mahie786/school-lessons)
+
+## Project 2: [Website Creation](https://github.com/Mahie786/school-lessons)
 
 Website for booking school lessons and placing orders. Includes cart and sort functionality.
 
@@ -91,7 +92,8 @@ Feel free to explore the code and reach out if you have any questions!
 
 ---
 
-### Project 3: [Game Website](https://github.com/Mahie786/portfolio/tree/main/gameJS)
+
+## Project 3: [Game Website](https://github.com/Mahie786/portfolio/tree/main/gameJS)
 
 Website for playing the classical "Snake" game with a public leaderboard to compete against others.
 
@@ -113,7 +115,8 @@ Feel free to check the code and try out the game online!
 
 
 ---
-### Project 4: [Recipe Website](https://github.com/Mahie786/portfolio/tree/main/Recipe/Recipe)
+
+## Project 4: [Recipe Website](https://github.com/Mahie786/portfolio/tree/main/Recipe/Recipe)
 
 A website for sharing recipes with others, allowing users to upload, view, and manage recipes.
 
