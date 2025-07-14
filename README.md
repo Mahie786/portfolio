@@ -6,7 +6,7 @@ Welcome to my university projects portfolio! Below are some of the key projects 
 
 ## Projects
 
-## Project 1: Undergraduate Individual Project: Cybersecurity Vulnerabilities in Smart Home IoT Devices
+## Project 1: [Undergraduate Individual Project: Cybersecurity Vulnerabilities in Smart Home IoT Devices](https://github.com/Mahie786/portfolio/blob/main/MIDDLESEX%20UNIVERSITY.pdf) 
 
 ### Abstract  
 Smart home devices are increasingly becoming a staple item in their households due
