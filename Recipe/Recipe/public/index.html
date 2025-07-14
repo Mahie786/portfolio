@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Recyipee</title>
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <div class="logo"><span>RE</span>CYIPEE</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#follows">Followers</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#upload">Upload Recipe</a></li>
+      </ul>
+      <form id="search">
+        <input type="text" id="searchTerm" placeholder="Search Users/Recipe">
+           <button onclick="searchUsers(event)">Search</button>
+
+      </form>
+      <button onclick="logout()" id="logoutButton" style="display:none;" class="LogoutButton" >Logout</button>
+
+    </nav>
+  </header>
+
+  <!-- Search Results Section -->
+<section id="search-results" style="display:none;">
+  <div class="container">
+      <h2>Search Results</h2>
+      <div id="resultsContainer"></div>
+  </div>
+</section>
+
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="recipes_container">
+      <h2>Recipes</h2>
+      <div id="recipes"></div>
+    </div>
+  </section>
+
+<!-- Upload Content Section -->
+  <section id="upload">
+    <div class="container">
+      <h2>Upload Recipe</h2>
+      <input type="text" id="contentTitle" placeholder="Recipe Title">
+      <input type="text" id="contentIngredients" placeholder="Ingredients (comma-separated)">
+      <textarea id="contentInstructions" placeholder="Instructions"></textarea>
+      <input type="file" id="contentImage">
+      <button onclick="uploadContent()">Share Recipe</button>
+    </div>
+  </section>
+
+  <!-- Follows Section -->
+  <section id="follows">
+    <div class="container">
+      <h2>Follow Users</h2>
+      <div id="users"></div>
+    </div>
+  </section>
+
+  <!-- Followed Recipes Section -->
+<section id="followed-recipes">
+  <div class="container">
+      <h2>Followed Users' Recipes</h2>
+      <div id="followedRecipes"></div>
+  </div>
+</section>
+
+
+  <!-- Login Section -->
+  <section id="login">
+    <div class="container">
+      <h2>Login</h2>
+      <input type="text" id="logUsername" placeholder="Username">
+      <input type="password" id="logPassword" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+  </section>
+
+  <!-- Register Section -->
+  <section id="register">
+    <div class="container">
+      <h2>Register</h2>
+      <input type="text" id="regUsername" placeholder="Username">
+      <input type="password" id="regPassword" placeholder="Password">
+      <input type="email" id="regEmail" placeholder="Email">
+      <button onclick="register()">Register</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
