@@ -11,10 +11,10 @@ A research paper on Cybersecurity Vulnerabilities in Smart Home IoT Devices
 
 ---
 
-### Project 2: [Project Title]
-A brief description of this project and what you learned.
+### Project 2: [Website Creation]
+Website for booking school lessons and placing orders. Adding to cart functionality and sort functionality.
 
-[Frontend]([./project2](https://github.com/Mahie786/school-lessons))
+[Frontend](https://github.com/Mahie786/school-lessons)
 [Backend](https://github.com/Mahie786/lesson-booking-backend)
 ---
 
