@@ -15,8 +15,6 @@ A research paper on Cybersecurity Vulnerabilities in Smart Home IoT Devices
 Website for booking school lessons and placing orders. Adding to cart functionality and sort functionality.
 
 [Frontend](https://github.com/Mahie786/school-lessons)
----
-
 [Backend](https://github.com/Mahie786/lesson-booking-backend)
 
 ---
